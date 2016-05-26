@@ -1,0 +1,48 @@
+﻿<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Project 10 carousel</title>
+        <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="js/jquery.jcarousel.js"></script>
+        <script src="js/script.js"></script>
+        <script type="text/javascript" src="js/jquery.selectbox-0.6.1.js"></script>
+        <link rel="stylesheet" type="text/css" media="all" href="css/jquery.selectbox.css" />
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="jcarousel">
+                <ul>
+                    <li><img src="img/1cat.jpg" alt="" /></li>
+                    <li><img src="img/2cats.jpg" alt="" /></li>
+                    <li><img src="img/3cats.jpg" alt="" /></li>
+                    <li><img src="img/4cats.jpg" alt="" /></li>
+                    <li><img src="img/5cats.jpg" alt="" /></li>
+                </ul>
+        </div>
+        <a class="jcarousel-prev" href="#"><img src="img/left_arrow.png" alt=""/></a>
+        <a class="jcarousel-next" href="#"><img src="img/right_arrow.png" alt=""/></a>
+        <div class="jcarousel-pagination">
+        </div>
+        <div class="check_blocks_style">
+            <input type="checkbox" id="test-check1" />
+            <label for="test-check1">Five cats:</label>
+            <input type="checkbox" id="test-check2" />
+            <label for="test-check2">One cats:</label>
+            <input type="checkbox" id="test-check3" />
+            <label for="test-check3">Three cats:</label>
+            <input type="checkbox" id="test-check4" />
+            <label for="test-check4">Two cats:</label>
+            <input type="checkbox" id="test-check5" />
+            <label for="test-check5">Four cats:</label>
+        </div>
+        <select id="default-usage-select">
+            <option value="--">Choose your cats</option>
+            <option value="01">First cat</option>
+            <option value="02">Second cat</option>
+            <option value="03">Third cat</option>
+            <option value="04">Fourth cat</option>
+            <option value="05">Fifth cat</option>
+        </select>
+    </body>
+</html>
